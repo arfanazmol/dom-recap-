@@ -20,11 +20,27 @@
 // const english = 900;
 //  total = exam + math + english
 // console.log(total)
+
+// const numbers = [23, 45, 54, 76, 98];
+// numbers [1] = 500;
+// numbers.push(121,443,546)
+// console.log(numbers);
 //-------------------------------//
 
-/*2---------const----------------*/
+//object.....
 
-const numbers = [23, 45, 54, 76, 98];
-numbers [1] = 500;
-numbers.push(121,443,546)
-console.log(numbers);
+let student ={
+    name: 'arfan azmol',
+    class:14
+}
+student.name = "shalisele";
+console.log(student)
+
+//loop
+
+let sum = 0;
+for(let i = 0; i <10; i++){
+    sum = sum + i;
+}
+
+console.log(sum);
