@@ -35,3 +35,9 @@ const challenge = `hei gys
 kemon aso tomra 
 ami tomaderi ekjon so lets go`;
 console.log(challenge)
+
+
+const numbers = [12, 34, 53, 34]
+const student = {name: 'aktar ali khan', age:23}
+const math = `the sum of ${numbers[0]} and ${student.age} is ${numbers [0] + student.age}`
+console.log(math)
